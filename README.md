@@ -1,8 +1,4 @@
-<p align="center">
-  <a href="https://blog-nurriyad.vercel.app" target="_blank">
-    <img  src="./app/assets/images/dark.png">
-  </a>
-</p>
+
 
 <h1 align="center">Nuxt Blog A Personal Blog Site</h1>
 
@@ -47,13 +43,6 @@ Nuxt Blog built with [Nuxt4](https://nuxt.com), [Nuxt-Content3](https://content.
   </a>
 </p>
 
-## Demo
-
-https://blog-nurriyad.vercel.app
-
-> Hosted on [Vercel](https://vercel.com/): `npm run build`
-
-## Build Setup
 
 **Requires Node.js 20.19+**
 
