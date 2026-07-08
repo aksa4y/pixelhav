@@ -1,9 +1,5 @@
 
 
-<h1 align="center">Nuxt Blog A Personal Blog Site</h1>
-
-### Built with
-
 <p align="center">
     <img width="200" src="./app/assets/images/logo.png">
 </p>
