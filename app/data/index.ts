@@ -1,0 +1,97 @@
+export const navbarData = {
+  homeTitle: 'Pixelhav',
+}
+
+export const footerData = {
+  author: 'Текст внизу',
+  aboutAuthor: 'Описание',
+  authorInterest:
+    "I have a fair amount of knowledge of Javascript, Typescript, VueJs, and Nuxt. If you have an interesting idea, either open source or paid let's connect.",
+  aboutTheSite: 'Описание2.',
+}
+
+export const homePage = {
+  title: 'Добро пожаловать',
+  description:
+    'Get Web Development, Javascript, Typescript, NodeJs, Vue, and Nuxt, Related Articles, Tips, Learning resources and more.',
+}
+
+export const blogsPage = {
+  title: 'Блоги',
+  description: 'Здесь вы найдете все записи в блоге.',
+}
+
+export const categoryPage = {
+  title: 'Категории',
+  description: 'Данные категории создается на основе всех тегов, упомянутых в разных темах блога',
+}
+
+export const aboutPage = {
+  title: 'Al Asad Nur Riyad',
+  description: 'Software Engineer, Problem Solver, Web Enthusiast.',
+  aboutMe:
+    "Hello, fellow human! I'm a software wizard who spends most of his day crafting code spells at @FieldNation in the Workplace Operation team. When I'm not crafting code, you can find me summoning solutions to problems on online judges. Just don't ask me to cast any love spells, my magic only works on machines!",
+}
+
+export const seoData = {
+  title: `Riyad's Blog | Riyads Blog`,
+  ogTitle: `Let's learn Javascript, Typescript, Vue, Nuxt, & Problem Solving - Riyads Blog | Riyad's Blog`,
+  description: `Hi I am Riyad. A Software Engineer at FieldNation, with over 3.5+ years experience in software development. - Riyads Blog | Riyad's Blog`,
+  twitterDescription: `Riyad's Blog, where I play around with Nuxt, Vue, and more and showcase my blog, resources, etc - Riyads Blog | Riyad's Blog`,
+  image: 'https://res.cloudinary.com/dmecmyphj/image/upload/v1673548905/nuxt-blog/cover_ntgs6u.webp',
+  mySite: 'https://blog-nurriyad.vercel.app',
+  twitterHandle: '@qdnvubp',
+  mailAddress: 'asadnurriyad@gmail.com',
+}
+
+export const socialLinks = {
+  githubLink: 'https://github.com/nurRiyad',
+  linkedinLink: 'https://www.linkedin.com/in/nur-riyad/',
+  twitterLink: 'https://twitter.com/qdnvubp',
+  stackoverflowLink: 'https://stackoverflow.com/users/16781395/nur-riyad',
+}
+
+export const siteMetaData = [
+  {
+    name: 'description',
+    content: seoData.description,
+  },
+  // Test on: https://developers.facebook.com/tools/debug/ or https://socialsharepreview.com/
+  { property: 'og:site_name', content: seoData.mySite },
+  { property: 'og:type', content: 'website' },
+  {
+    property: 'og:url',
+    content: seoData.mySite,
+  },
+  {
+    property: 'og:title',
+    content: seoData.ogTitle,
+  },
+  {
+    property: 'og:description',
+    content: seoData.description,
+  },
+  {
+    property: 'og:image',
+    content: seoData.image,
+  },
+  // Test on: https://cards-dev.twitter.com/validator or https://socialsharepreview.com/
+  { name: 'twitter:site', content: seoData.twitterHandle },
+  { name: 'twitter:card', content: 'summary_large_image' },
+  {
+    name: 'twitter:url',
+    content: seoData.mySite,
+  },
+  {
+    name: 'twitter:title',
+    content: seoData.ogTitle,
+  },
+  {
+    name: 'twitter:description',
+    content: seoData.twitterDescription,
+  },
+  {
+    name: 'twitter:image',
+    content: seoData.image,
+  },
+]
