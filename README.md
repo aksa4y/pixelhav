@@ -26,18 +26,7 @@ Nuxt Blog built with [Nuxt4](https://nuxt.com), [Nuxt-Content3](https://content.
 - Then head over to the `./content/blogs` folder to add new blogs
 - Voilà! You've got a personalized blog site!
 
-## Preview
 
-<p align="center">
-  <a href="https://blog-nurriyad.vercel.app" target="_blank">
-    <img width="1090" src="./app/assets/images/preview1.png">
-    <img width="1090" src="./app/assets/images/preview2.png">
-    <img width="1090" src="./app/assets/images/preview3.png">
-    <img width="1090" src="./app/assets/images/preview4.png">
-    <br>
-    Live Demo
-  </a>
-</p>
 
 
 **Requires Node.js 20.19+**
